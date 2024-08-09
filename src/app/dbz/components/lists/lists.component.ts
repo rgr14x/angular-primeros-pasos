@@ -25,8 +25,6 @@ export class ListsComponent {
 
     if(!id) return;
 
-    console.log({id});
-
     this.onDelete.emit(id);
   }
 
